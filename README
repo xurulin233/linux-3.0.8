@@ -1,0 +1,3 @@
+cd linux-3.0.8
+cp mini210_linux_defconfig .config
+make ARCH=arm CROSS_COMPILE=/home/s5pv210/test0108/opt/FriendlyARM/toolschain/4.5.1/bin/arm-none-linux-gnueabi- zImage uImage
